@@ -9,6 +9,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
+    'ai',
+    'rest_framework',
     'search',
     'django.contrib.admin',
     'django.contrib.auth',
